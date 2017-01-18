@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-sm-12 url-input-are">
+    <form ng-submit="sendUrl()">
+      <input ng-model="originalUrl" placeholder="Past your URL here." type="url" class="form-control" />
+      <input class="btn pull-right submit-button" value="Get Url" type="submit">
+    </form>
+    <div class="col-xs-12 sorted-area">
+      <div    ng-if="shorted.length" class="col-xs-12 text-center">
+        Your Url is converted to this
+      <a href="{{yourDomain}}{{shorted}}">
+        <span class="span">{{yourDomain}}{{shorted}}</span>
+      </a>
+      </div>
+    </div>
+  </div>
+</div>
