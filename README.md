@@ -8,7 +8,7 @@ When someone entering the short URL in the URL bar it is going to the URLS contr
 
 ## Installation and first run ##
 
-backend:
+# backend: #
 
 Install node.js. download it from node.js official site. Download and install the git. After that open the CMD as admin and do npm install express –g, after that npm install bower –g, npm install grunt –g, npm install grunt-cli –g, npm install yo –g.
 
