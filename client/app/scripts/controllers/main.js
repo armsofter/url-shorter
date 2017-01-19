@@ -9,7 +9,7 @@
  */
 angular.module('clientApp')
   .controller('MainCtrl',['urlSvc','$scope', function (urlSvc,$scope) {
-    $scope.yourDomain = "http://localhost:9000/#!/";
+    $scope.yourDomain = "http://localhost:9000/#/";
     $scope.shorted = "";
     $scope.originalUrl = "";
     $scope.sendUrl = function(){
